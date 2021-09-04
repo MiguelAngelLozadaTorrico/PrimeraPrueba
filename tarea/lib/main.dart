@@ -56,7 +56,7 @@ class _InicioState extends State<Inicio>
          Column(
            mainAxisAlignment: MainAxisAlignment.center,
            children:<Widget>[
-              Text("hola mundo"),
+              Text("hola planeta"),
               FutureBuilder(
                   future: getData(), 
                   builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot)
